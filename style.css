@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    content: '';
+    height: 100px;
+}
+body{
+    background-color: black;
+}
+.warning-sec{
+    opacity: .95 !important;
+}
+.container{
+    opacity: .875 !important;
+}
+.map{
+    margin-top: 5.25rem !important;
+}
+@media (min-width:768px) {
+    .col-md{ 
+        flex: 1 0 0%;
+    }
+}
